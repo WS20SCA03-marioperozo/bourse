@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FourthViewController.swift
 //  bourse
 //
 //  Created by Mario Perozo on 6/5/20.
@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FourthViewController: UIViewController {
+    
+    var tickerSymbol: String? = nil;
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    
 
 
 }
-
